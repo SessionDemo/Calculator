@@ -10,7 +10,7 @@ name: Basicpipeline
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "xyz" ]
  
 
 jobs:
