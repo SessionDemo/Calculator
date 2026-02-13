@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.sessiondemo</groupId>
+	<groupId>com.SessionDemo</groupId>
 	<artifactId>Calculatorprojectsec</artifactId>
 	<version>1.0.2</version>
 	<packaging>war</packaging>
