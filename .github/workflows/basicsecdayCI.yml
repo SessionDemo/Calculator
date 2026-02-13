@@ -38,6 +38,18 @@ jobs:
         cache: maven
     - name: compile with Maven
       run: mvn -B compile --file pom.xml
+  StaticAnalysis:
+    needs: Setup
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        # Disabling shallow clones is recommended for improving the relevancy of reporting
+        fetch-depth: 0
+    - name: SonarQube Scan
+      uses: SonarSource/sonarqube-scan-action@v4
+      env:
+        SONAR_TOKEN: ${{ secrets.SA_TOKEN }}
   UnitTesting:
     runs-on: ubuntu-latest
     needs: Compile
