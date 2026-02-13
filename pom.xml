@@ -20,8 +20,8 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 		
 	
-  <sonar.projectKey>DevOpsSes_Cal</sonar.projectKey>
-  <sonar.organization>devopsses</sonar.organization>
+  <sonar.projectKey>SessionDemo_Calculator</sonar.projectKey>
+  <sonar.organization>sessiondemo</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
 	</properties>
