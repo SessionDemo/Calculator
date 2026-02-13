@@ -127,7 +127,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub MBB Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/DevOpsSes/Cal</url>
+			<url>https://maven.pkg.github.com/SessionDemo/Calculator</url>
 		</repository>
 	</distributionManagement>
 </project>
