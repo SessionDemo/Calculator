@@ -119,6 +119,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+        server-username: RRimu
+        server-password: GA_TOKEN
         settings-path: ${{ github.workspace }} # location for the settings.xml file
     - name: download artifact
       uses: actions/download-artifact@v4
