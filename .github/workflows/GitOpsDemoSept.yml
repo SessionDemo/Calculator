@@ -52,6 +52,6 @@ jobs:
     - name: Static Analysis
       env:
           GITHUB_TOKEN: ${{ secrets.GA_TOKEN }}  # Needed to get PR information, if any
-          SONAR_TOKEN: ${{ secrets.SA_TOKEN }}
+          SONAR_TOKEN: 3bfe0ec32e54fd16d2c786024a3b4d96a55fb94d
       run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
    
