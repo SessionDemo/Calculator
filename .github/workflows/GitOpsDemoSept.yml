@@ -47,8 +47,8 @@ jobs:
       env:
         github-token: ${{ secrets.GA_TOKEN }}
         sonar-token: ${{ secrets.SA_TOKEN }}
-      run: mvn -X verify sonar:sonar
+      run: mvn -B clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
 
-      
+       
 
    
